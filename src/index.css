@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', 'monospace';
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url(../public//tenor.gif)
+}
+
+h2 {
+  position:absolute;
+    bottom:5px;
+    right:10px;
+}
